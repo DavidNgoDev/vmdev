@@ -240,8 +240,82 @@ Get-AppxPackage king.com.CandyCrush* | Remove-AppxPackage
 # Install Custom Software
 Write-Host "[ * ] Installing Software"
 
-
-
+choco install adobereader -y
+choco install googlechrome -y
+choco install jre8 -y
+choco install firefox -y
+choco install 7zip.install -y
+choco install vlc -y
+choco install git.install -y
+choco install winrar -y
+choco install putty.install -y
+choco install nodejs.install -y
+choco install notepadplusplus -y
+choco install skype -y
+choco install ccleaner -y
+choco install vcredist140 -y
+choco install kb2999226 -y
+choco install malwarebytes -y
+choco install python2 -y
+choco install filezilla -y
+choco install curl -y
+choco install gimp -y
+choco install inkscape -y
+choco install wget -y
+choco install python3 -y
+choco install atom -y
+choco install dotnetfx -y
+choco install ruby -y
+choco install itunes -y
+choco install thunderbird -y
+choco install winscp -y
+choco install awscli -y
+choco install virtualbox -y
+choco install vscode -y
+choco install nuget.commandline -y
+choco install wireshark -y
+choco install sourcetree -y
+choco install golang -y
+choco install office365business -y
+choco install windirstat -y
+choco install sublimetext3 -y
+choco install vim -y
+choco install audacity -y
+choco install spotify -y
+choco install greenshot -y
+choco install cmder -y
+choco install vagrant -y
+choco install tortoisesvn -y
+choco install office365proplus -y
+choco install microsoft-teams.install -y
+choco install googledrive -y
+choco install slack -y
+choco install mysql.workbench -y
+choco install qbittorrent -y
+choco install rufus -y
+choco install brackets -y
+choco install cpu-z -y
+choco install poweriso -y
+choco install bginfo -y
+choco install nmap -y
+choco install androidstudio -y
+choco install f.lux -y
+choco install adwcleaner -y
+choco install handbrake.install -y
+choco install arduino -y
+choco install imgburn -y
+choco install discord -y
+choco install yumi -y
+choco install hxd -y
+choco install kodi -y
+choco install github-desktop -y
+choco install hyper -y
+choco install obs-studio -y
+choco install microsoft-windows-terminal -y
+choco install gitkraken -y
+choco install skypeforbusiness -y
+choco install postman -y
+choco install visualstudio2019enterprise -y
 
 # AUS Time Settings Change Here For Your Location
 Set-TimeZone -Name "AUS Eastern Standard Time"
